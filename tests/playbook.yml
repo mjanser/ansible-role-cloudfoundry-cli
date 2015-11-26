@@ -1,0 +1,4 @@
+---
+- hosts: all
+  roles:
+    - ansible-role-cloudfoundry-cli
