@@ -3,7 +3,7 @@ galaxy_info:
   author: mjanser
   description: Installs CloudFoundry CLI on Ubuntu
   license: MIT
-  min_ansible_version: 1.6
+  min_ansible_version: 1.9
   platforms:
   - name: Ubuntu
     versions:

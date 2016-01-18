@@ -3,9 +3,9 @@
   get_url:
     url: "https://cli.run.pivotal.io/stable?release=debian64&source=pws"
     dest: /opt/cf-cli.deb
-  sudo: yes
+  become: yes
 
 - name: "ensure package for CloudFoundry CLI is installed"
   apt:
     deb: /opt/cf-cli.deb
-  sudo: yes
+  become: yes
