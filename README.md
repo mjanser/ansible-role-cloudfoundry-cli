@@ -2,6 +2,8 @@
 
 An Ansible role that installs the CloudFoundry CLI on Ubuntu.
 
+**Warning**: This role is not maintained anymore!
+
 ## Requirements
 
 None
